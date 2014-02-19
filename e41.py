@@ -16,7 +16,7 @@ PHRASES = {
         "From *** get the *** attribute and set it to '***'."
 }
 
-PHRASE_FIRST = False 
+PHRASE_FIRST = False
 if len(sys.argv) == 2 and sys.argv[1] == "english":
     PHRASE_FIRST = True
 
@@ -66,5 +66,3 @@ try:
             print "Answer: %s\n\n" % answer
 except EOFError:
     print"\nBye"
-
-
